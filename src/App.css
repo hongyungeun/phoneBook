@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  text-align: center;
+  margin: 50px auto 30px auto;
+  display: block;
+}
+.main_wrap {
+  display: flex;
+  max-width: 1400px;
+  justify-content: center;
+  gap: 30px;
+}
+.right_box {
+  margin-top: 50px;
+  box-shadow: 0 3px 6px #ddd;
+  padding: 15px;
+}
+.item_list {
+  border: 1px solid rgba(133, 133, 133, 0.249);
+  padding: 5px;
+  align-items: center;
+}
